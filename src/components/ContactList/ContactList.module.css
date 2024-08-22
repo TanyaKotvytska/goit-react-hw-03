@@ -1,0 +1,16 @@
+.contactlist {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0;
+}
+
+.contactitem {
+    border: 2px solid rgb(47, 116, 57);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 4px;
+}

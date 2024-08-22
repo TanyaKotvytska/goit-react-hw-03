@@ -1,0 +1,30 @@
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 0 20px 0 20px;
+}
+
+.btncontact {
+    display: block;
+    border: none;
+    background: #addd6e;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.contacttext {
+    text-align: left;
+}
